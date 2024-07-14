@@ -12,32 +12,31 @@
     <title>Profile card component</title>
 </head>
 <body>
-    <header class="header-content">
-        <figure class="header-img">
-            <img src="./assets/images/bg-pattern-card.svg" alt="background card">
-        </figure>
-    </header>
-    <main class="main-content">
-        <figure class="img-container">
-            <img src="./assets/images/image-victor.jpg" alt="Victor Crest">
-        </figure>
-        <section class="profile-info">
-            <h1 class="profile-info__name">Victor Crest <span>26</span></h1>
-            <p class="profile-info__city">London</p>
-        </section>
-        <section class="followers">
-            <div class="followers__item">
-                <h2 class="followers__number">80K</h2>
-                <p class="followers__title">Followers</p>
+    <main class="main-container">
+        <section class="card-container">
+            <figure class="img-bg">
+                <img src="./assets/images/bg-pattern-card.svg" alt="Background img color dark cyan">
+            </figure>
+            <div class="card-profile__content">
+                <figure class="card-profile__img">
+                    <img src="./assets/images/image-victor.jpg" alt="Victor Crest">
+                </figure>
+                <h2 class="card-profile__name">Victor Crest <span>26</span></h2>
+                <p class="card-profile__city">London</p>
             </div>
-            <div class="followers__item">
-                <h2 class="followers__number">803K</h2>
-                <p class="followers__title">Likes</p>
-            </div>
-            <div class="followers__item">
-                <h2 class="followers__number">1.4K</h2>
-                <p class="followers__title">Photos</p>
-            </div>
+            <div class="card-profile__stats">
+                <div class="card-profile__stat">
+                    <h3>80K</h3>
+                    <p>Followers</p>
+                </div>
+                <div class="card-profile__stat">
+                    <h3>803K</h3>
+                    <p>Likes</p>
+                </div>
+                <div class="card-profile__stat">
+                    <h3>1.4K</h3>
+                    <p>Photos</p>
+                </div>
         </section>
     </main>
 </body>
